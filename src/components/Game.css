@@ -1,0 +1,39 @@
+.letterContainer form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.tip {
+  font-size: 2em;
+}
+
+.tip span {
+  color: royalblue;
+}
+
+.wordContainer {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.letter,
+.blankSquare {
+  font-size: 70px;
+  line-height: 1.5;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
